@@ -26,7 +26,7 @@
     $sql = "INSERT INTO `student registration`(`First name`, `Last name`, `Email`, `DOB`, `Gender`, `Phone number`, `Department`, `City`) VALUES ('$fname','$lname','$email','$dob','$gender','$pnumber','$department','$city')";
 
     if ($conn->query($sql) === TRUE) {
-        header("Location: http://localhost/studentproject/Registration.html");
+        header("Location: https://github.com/Naitik-Soni/Student-Admission/Registration.html");
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
     }
