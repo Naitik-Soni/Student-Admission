@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="signup.css">
+    <title>Sign Up</title>
+</head>
+
+<body>
+    <form action="http://localhost/studentproject/Signup.php" method="POST">
+        <h1>Sign Up</h1>
+        <label>
+            Username <br>
+            <input type="text" name="username" placeholder="Enter username" required>
+        </label><br>
+        <label>
+            Email <br>
+            <input type="email" name="email" placeholder="Enter email" required>
+        </label><br>
+        <label>
+            New Password <br>
+            <input type="password" name="newpassword" id="np" placeholder="Enter new password" required>
+        </label><br>
+        <label>
+            Confirm Password <br>
+            <input type="password" name="confirmpassword" id="cp" placeholder="Confirm password" required>
+        </label><br>
+        <label>
+            <input type="submit" value="Submit">
+        </label>
+    </form>
+</body>
+
+</html>

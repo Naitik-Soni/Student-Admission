@@ -1,0 +1,38 @@
+label {
+    display: flex;
+    justify-content: space-between;
+}
+
+label input {
+    margin-left: 10px;
+}
+
+label input[type='radio'] {
+    width: 30px;
+    margin: 0;
+}
+
+label p {
+    margin-right: 65px;
+}
+
+label select {
+    width: 215px;
+}
+
+input[type='submit'],
+input[type='reset'] {
+    margin: 0;
+    padding: 0;
+}
+
+.sure {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}

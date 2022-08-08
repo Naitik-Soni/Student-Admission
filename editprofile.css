@@ -1,0 +1,13 @@
+label:nth-child(2) {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+img {
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: blue;
+    border: none;
+    outline: none;
+}

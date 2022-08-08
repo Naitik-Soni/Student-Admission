@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="register.css">
+    <title>Register</title>
+</head>
+
+<body>
+    <form action="http://localhost/studentproject/registration.php" method="post">
+        <h1>Student Registration</h1>
+        <label>
+            First Name: <input type="text" name="firstname" placeholder="First name" required>
+        </label>
+        <label>
+            Last Name: <input type="text" name="lastname" placeholder="Last name" required>
+        </label>
+        <label>
+            Email: <input type="email" name="email" placeholder="Email" required>
+        </label>
+        <label>
+            Phone Number: <input type="tel" name="pnumber" placeholder="Phone number" pattern="[0-9]{10}" required>
+        </label>
+        <label>
+            Date of birth: <input type="date" name="dob" required>
+        </label>
+        <label>
+            Gender:
+            <p>Male<input type="radio" name="gender" value="Male">
+                Femal<input type="radio" name="gender" value="Female"></p>
+        </label>
+        <label>
+            Department:
+            <select name="department" required>
+                <option value="none" selected disabled hidden>Select an Option</option>
+                <option value="Information technology">Information Technology</option>
+                <option value="Computer engineering">Computer Engineering</option>
+                <option value="Electronics engineering">Electronics Engineering</option>
+                <option value="Elctrical Engineering">Electrical Engineering</option>
+            </select>
+        </label>
+        <label>
+            City: <input type="text" name="city" placeholder="City" required>
+        </label>
+        <label class="sure">
+            <input type="submit" value="Submit" style="transform: translate(0);left:0;">
+            <input type="reset" value="Reset" style="transform: translate(0);left:0;">
+        </label>
+    </form>
+</body>
+
+</html>
