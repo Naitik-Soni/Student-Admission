@@ -28,18 +28,18 @@
         if($pass == $newpassword){
             session_start();
             $_SESSION['loginSession'] = $Username;
-            header("location: uploaddocuments.html");
+            header("location: https://github.com/Naitik-Soni/Student-Admission/uploaddocuments.html");
         }
         else{
             echo "<script>alert('Wrong Password!')</script>";
-            echo "<script>function reDirect() { location.replace('http://localhost/studentproject/login.html')};
+            echo "<script>function reDirect() { location.replace('https://github.com/Naitik-Soni/Student-Admission/login.html')};
                     reDirect();
                 </script>";
         } 
     } 
     else {
         echo "<script>alert('Wrong Password!')</script>";
-        echo "<script>function reDirect() { location.replace('http://localhost/studentproject/login.html')};
+        echo "<script>function reDirect() { location.replace('https://github.com/Naitik-Soni/Student-Admission/login.html')};
                     reDirect(); 
                 </script>";
     }
